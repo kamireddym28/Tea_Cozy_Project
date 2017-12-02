@@ -1,0 +1,109 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  display: flex;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+.header{
+  height: 69px;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.header img{
+  height: 50px;
+  margin: 10px;
+  opacity: 0.9;
+}
+.header li{
+  list-style: none;
+  display: inline-block;
+}
+.header li a{
+  color: seashell;
+  text-decoration: underline;
+  opacity: 0.9;
+  padding: 0 10px;
+}
+.main{
+  height: 1520px;
+  justify-content: center;
+}
+.mission_banner{
+  width:1200px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  bottom: 400px;
+  align-content: center;
+}
+.txt_banner,.address{
+  color: seashell;
+  text-align: center;
+  opacity: 0.9;
+}
+.main_bottom{
+  align-content:center;
+  position: absolute;
+  top: 750px;
+  width: 1000px;
+}
+.main_images{
+  display: flex;
+  justify-content: space-around;
+}
+.row1{
+  padding: 0 170px;
+}
+.footer{
+  height: 785px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.foot_txt{
+  position: relative;
+  bottom:470px;
+  padding-bottom: 15px;
+}
+.foot_inside{
+  display: flex;
+  position: relative;
+  bottom: 500px;
+  margin-left: 115px;
+}
+.box{
+  background-color: black;
+  display: inline-block;
+  height: 250px;
+  width:300px;
+  opacity: 1;
+  margin: 10px;
+}
+h3,p,h5{
+  opacity: 0.9;
+}
+.foot_bottom{
+  position: absolute;
+  margin-top: 480px;
+}
+.contact{
+  height: 200px;
+  display: inline-block;
+  justify-content: center;
+}
+.footer_foot{
+  display: block;
+  position: absolute;
+  text-align: left;
+  left: 20px;
+  margin-top: 700px;
+}
